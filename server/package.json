@@ -16,6 +16,7 @@
     "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
     "graphql": "^16.11.0",
     "graphql-http": "^1.22.4",
     "http": "^0.0.1-security",
@@ -26,7 +27,6 @@
     "nodemailer": "^7.0.5",
     "nodemon": "^3.1.10",
     "pug": "^3.0.3",
-    "ruru": "^2.0.0-beta.24",
-    "express-fileupload": "^1.5.2",
+    "ruru": "^2.0.0-beta.24"
   }
 }
