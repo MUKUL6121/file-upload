@@ -26,6 +26,7 @@
     "nodemailer": "^7.0.5",
     "nodemon": "^3.1.10",
     "pug": "^3.0.3",
-    "ruru": "^2.0.0-beta.24"
+    "ruru": "^2.0.0-beta.24",
+    "express-fileupload": "^1.5.2",
   }
 }
