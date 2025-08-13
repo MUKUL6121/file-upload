@@ -29,6 +29,17 @@ app.post('/upload', (req, res) => {
     }
 });
 
+app.get('/files', (req, res) => {
+    const location = path.join(__dirname, 'assets');
+    fs.readdir(location, (err, files) => {
+        if (err) {
+            console.log("there is 0 files.")
+            res.send("there is no files.")
+        } else {
+            res.send(files)
+        }
+    });
+});
 app.listen(3000, () => {
     console.log('Server started on http://localhost:3000');
 });
